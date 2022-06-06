@@ -151,8 +151,9 @@ r1.isFailure(); // this will be true.
 r1.toHash(); // Examples given above.
 ```
 
-
-# PromiseQueueManager Usage
+## CustomPromise QueueManager
+QueueManager provides various management options and configurations for a queue of Promises. Following is a brief 
+documentation of the various manager options and example usage.
 ```js
 const Base = require('@plgworks/base'),
   logger  = new Base.Logger("my_module_name");
@@ -250,11 +251,13 @@ const promiseExecutor = function ( resolve, reject, params, promiseContext ) {
 
 const manager = new Base.CustomPromise.QueueManager( promiseExecutor, queueManagerOptions);
 
+// createPromise calls the promiseExecutor
 for( let cnt = 0; cnt < 5; cnt++ ) {
   manager.createPromise( {"cnt": (cnt + 1) } );
 }
-
 ```
+
+
 
 # Running test cases
 ```shell script
