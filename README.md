@@ -257,8 +257,6 @@ for( let cnt = 0; cnt < 5; cnt++ ) {
 }
 ```
 
-
-
 # Running test cases
 ```shell script
 ./node_modules/.bin/mocha --recursive "./tests/**/*.js"
