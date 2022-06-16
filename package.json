@@ -1,6 +1,6 @@
 {
   "name": "@plgworks/base",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Base provides advanced Promise Queue Manager and other utilities.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "Base"
   ],
   "author": "PLG Works",
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/PLG-Works/base/issues"
   },
