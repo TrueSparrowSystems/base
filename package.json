@@ -1,6 +1,6 @@
 {
-  "name": "@TrueSparrowSystems/base",
-  "version": "1.0.2",
+  "name": "@truesparrow/base",
+  "version": "2.0.0",
   "description": "Base provides advanced Promise Queue Manager and other utilities.",
   "main": "index.js",
   "scripts": {

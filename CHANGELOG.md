@@ -1,3 +1,6 @@
+## Base v2.0.0
+- Republished package under @truesparrow
+
 ## Base v1.0.2
 - LICENSE changes.
 
