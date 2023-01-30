@@ -1,12 +1,11 @@
 # Base
-![npm version](https://img.shields.io/npm/v/@plgworks/base.svg?style=flat)
-
+![npm version](https://img.shields.io/npm/v/@TrueSparrowSystems/base.svg?style=flat)
 Base provides frequently used functionality like cutome logger, response helper, Custom Promise and Instance composer. 
-These are used in almost all PLG Works repositories and hence the name `Base`.
+These are used in almost all True Sparrow repositories and hence the name `Base`.
 
 ## Installation
 ```shell script
-npm install @plgworks/base --save
+npm install @TrueSparrowSystems/base --save
 ```
 
 ## Logger
@@ -17,7 +16,7 @@ visually distinguished easily.
 In the following snippet, we try to showcase all the logger methods with documentation in comments.
 
 ```js
-const Base = require('@plgworks/base');
+const Base = require('@TrueSparrowSystems/base');
 const Logger  = Base.Logger;
 
 // Constructor's first parameter is the module name. This is logged in every line to separate logs from multiple modules.
@@ -81,7 +80,7 @@ const paramErrorConfig = require(rootPrefix + '/tests/mocha/lib/formatter/paramE
 // message and code goes in the error object.
 const apiErrorConfig = require(rootPrefix + '/tests/mocha/lib/formatter/apiErrorConfig');
 
-const Base = require('@plgworks/base');
+const Base = require('@TrueSparrowSystems/base');
 const ResponseHelper  = Base.responseHelper;
 
 // Creating an object of ResponseHelper. Parameter is an object with key moduleName.
@@ -155,7 +154,7 @@ r1.toHash(); // Examples given above.
 QueueManager provides various management options and configurations for a queue of Promises. Following is a brief 
 documentation of the various manager options and example usage.
 ```js
-const Base = require('@plgworks/base'),
+const Base = require('@TrueSparrowSystems/base'),
   logger  = new Base.Logger("my_module_name");
 
 const queueManagerOptions = {

@@ -1,5 +1,5 @@
 /**
- * Index File for @plgworks/base
+ * Index File for @TrueSparrowSystems/base
  */
 
 const rootPrefix = '.',

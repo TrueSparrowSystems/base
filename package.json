@@ -1,5 +1,5 @@
 {
-  "name": "@plgworks/base",
+  "name": "@TrueSparrowSystems/base",
   "version": "1.0.2",
   "description": "Base provides advanced Promise Queue Manager and other utilities.",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PLG-Works/base.git"
+    "url": "https://github.com/TrueSparrowSystems/base.git"
   },
   "keywords": [
     "Base"
   ],
-  "author": "PLG Works",
+  "author": "True Sparrow",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PLG-Works/base/issues"
+    "url": "https://github.com/TrueSparrowSystems/base/issues"
   },
-  "homepage": "https://github.com/PLG-Works/base",
+  "homepage": "https://github.com/TrueSparrowSystems/base",
   "dependencies": {
     "shortid": "2.2.16"
   },
